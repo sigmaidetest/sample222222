@@ -13,7 +13,7 @@ exports.handler = function (event, context, callback) {
 		query: 'asasa',gfgfgh
 		inserts: []
 	}, function (error, results, connection) {
-		if (error) {
+		if (error) {hh
 			console.log("Error occurred");
 			throw error;
 		} else {
