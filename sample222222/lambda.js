@@ -10,7 +10,7 @@ exports.handler = function (event, context, callback) {
 	// You must always end the DB connection after it's used
 	rds.query({
 		instanceIdentifier: 'mobilebackend',
-		query: 'asasa',
+		query: 'asasa',gfgfgh
 		inserts: []
 	}, function (error, results, connection) {
 		if (error) {
